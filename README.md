@@ -1,7 +1,10 @@
-
 # Python Calculator with History
 
 A simple interactive calculator web application built using Python and Streamlit.
+
+## 🚀 Live Demo
+
+[Click here to use the Smart Calculator](https://smart-calculator01.streamlit.app/)
 
 ## Features
 
@@ -22,39 +25,37 @@ A simple interactive calculator web application built using Python and Streamlit
 
 ## Project Structure
 
+```text
 calculator/
 ├── app.py
 ├── calculator_with_history.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Installation
 
 Clone the repository:
 
-git clone YOUR_REPOSITORY_URL
+```bash
+git clone https://github.com/Pooja-mohite/python-calculator-streamlit-.git
+```
 
-Navigate into the project:
+Navigate to the project directory:
 
-cd python-calculator-streamlit
-
-Create a virtual environment:
-
-python -m venv venv
-
-Activate it on Windows PowerShell:
-
-.\venv\Scripts\Activate.ps1
+```bash
+cd python-calculator-streamlit-
+```
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the application:
 
+```bash
 streamlit run app.py
-
-## Author
-
-Pooja Mohite
+```
