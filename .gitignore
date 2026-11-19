@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Local calculation history
+history.txt
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
